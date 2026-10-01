@@ -21,22 +21,27 @@ K4-L3B-<HoVaTen>-<MSSV>-AIEvaluation
 K4-L3B-NguyenVanAn-L3A202600280-AIEvaluation
 ```
 
-> ⚠️ **Lưu ý:** Đặt sai tên repository sẽ bị trừ **5 điểm** theo quy định trong [RUBRIC.md](RUBRIC.md).
+### Thông tin nộp bài của sinh viên:
+- **Họ và tên:** Nguyễn Đức Đồng
+- **Mã số sinh viên (MSSV):** 2A202602367
+- **Lớp / Khóa:** K4 - L3B (AICB-P1)
+- **Tên Repository:** `K4-L3B-NguyenDucDong-2A202602367-AIEvaluation`
+- **Link GitHub Repository:** [https://github.com/nguyenducdong22/K4-L3B-NguyenDucDong-2A202602367-AIEvaluation](https://github.com/nguyenducdong22/K4-L3B-NguyenDucDong-2A202602367-AIEvaluation)
 
 ## 3. Thành phần bài nộp (Deliverables)
 
-| File | Yêu cầu |
-|---|---|
-| `solution/solution.py` | Hoàn thiện tất cả TODO bắt buộc |
-| `golden_dataset.json` | Đủ 20 QA, đúng schema |
-| `exercises.md` | worksheet, benchmark 3.2, rubric 3.3 |
-| `reflection.md` | report, 3 failures, 5 Whys, regression |
+| File | Yêu cầu | Trạng thái |
+|---|---|:---:|
+| `solution/solution.py` | Hoàn thiện tất cả TODO bắt buộc & bonus | ✅ ĐÃ HOÀN THÀNH (42/42 tests PASS) |
+| `golden_dataset.json` | Đủ 20 QA, đúng schema (5 Easy, 7 Med, 5 Hard, 3 Adv) | ✅ ĐÃ HOÀN THÀNH (validate PASS) |
+| `exercises.md` | worksheet, benchmark 3.2, rubric 3.3, task 2c | ✅ ĐÃ HOÀN THÀNH (100%) |
+| `reflection.md` | report, 3 failures 5 Whys, regression strategy | ✅ ĐÃ HOÀN THÀNH (100%) |
+| `artifacts/actual_answers.json` | 20 câu trả lời tạo từ RAG (Llama-3.3-70B) | ✅ ĐÃ TẠO (Đầy đủ 20 QA trace) |
+| `artifacts/benchmark_results.json` | Báo cáo đo lường 5 chỉ số RAGAS benchmark | ✅ ĐÃ TẠO (Bảng chỉ số chi tiết) |
+| `dashboard/` | Giao diện Web UX/UI Benchmark & Chatbot mô phỏng | ✅ BỔ SUNG (Tiếng Việt 100%) |
 
-Các file sinh ra trong quá trình chạy (artifacts) là tùy chọn (optional):
-- `artifacts/actual_answers.json`
-- `artifacts/benchmark_results.json`
-
-> ⚠️ **CẢNH BÁO BẢO MẬT:** Tuyệt đối **KHÔNG commit** file `.env`, OpenAI API key hoặc bất kỳ thông tin bí mật nào lên GitHub repository. Vi phạm sẽ bị trừ **10 điểm**.
+> ⚠️ **CẢNH BÁO BẢO MẬT:** Tuyệt đối **KHÔNG commit** file `.env`, OpenAI API key hoặc bất kỳ thông tin bí mật nào lên GitHub repository. Vi phạm sẽ bị trừ **10 điểm**.  
+> *(Đã cấu hình an toàn trong `.gitignore`, không đưa `.env` lên GitHub).*
 
 ## 4. Nơi nộp và Hạn nộp (Deadline)
 - **Nơi nộp:** Nộp link GitHub repository cá nhân lên Codelab.
